@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{7823412e-ef64-413b-bb8e-345885460b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DynamicArray">
+      <UniqueIdentifier>{bef7daa0-193e-4d6b-90ca-ef6076312fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queue">
+      <UniqueIdentifier>{16336d8b-f520-4ebc-8d73-b7cf94087761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BinaryHeap">
+      <UniqueIdentifier>{f10e33df-1529-4d05-8346-332bbb1fd1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ColorGraph">
+      <UniqueIdentifier>{b39c6761-dc5e-430c-98c4-99fc9a04c513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LAB1_AI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicArray.cpp">
+      <Filter>Source Files\DynamicArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Source Files\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryHeap.cpp">
+      <Filter>Source Files\BinaryHeap</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorGraph.cpp">
+      <Filter>Source Files\ColorGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files\ColorGraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h">
+      <Filter>Source Files\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Source Files\DynamicArray</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Source Files\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryHeap.h">
+      <Filter>Source Files\BinaryHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorGraph.h">
+      <Filter>Source Files\ColorGraph</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
